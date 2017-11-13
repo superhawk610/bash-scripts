@@ -1,5 +1,9 @@
 #!/bin/bash
 
+## to be used with the following syntax:
+## printf '${color}foobar${end}'
+## echo -e '${color}foobar${end}'
+
 # foreground colors ([color])
 black=$'\e[30m'
 red=$'\e[31m'
