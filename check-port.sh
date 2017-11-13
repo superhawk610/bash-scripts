@@ -1,2 +1,2 @@
 #!/bin/bash
-nmap -p $1 $2
+nmap -p $2 $1
